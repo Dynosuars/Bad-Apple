@@ -1,5 +1,5 @@
 import time
-import pygame as pg
+import pygame 
 
 def play_ascii_in_pygame():
     # Read ASCII art frames
@@ -7,7 +7,7 @@ def play_ascii_in_pygame():
         frames = f.read().split('SPLIT')
 
     # Initialize Pygame (pg)
-    pg.init()
+    pygame.init()
     screen = pygame.display.set_mode((0, 0), pygame.FULLSCREEN)
     pygame.display.set_caption("Badapple")
 
