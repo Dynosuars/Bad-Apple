@@ -1,11 +1,11 @@
 from PIL import Image
 import cv2
 
-# Define video length in seconds
+
 video_length = 218
 
-# ASCII characters for mapping
-ASCII_CHARS = '@%#*+=-:. '  # Adjusted to reduce periods
+# ASCII characters
+ASCII_CHARS = '@%#*+=-:. ' 
 
 def scale_image(image, new_width, new_height):
     """Resizes an image to the given width and height."""
