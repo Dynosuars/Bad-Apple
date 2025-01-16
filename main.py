@@ -22,12 +22,12 @@ def play_ascii_in_pygame():
 
     # Audio settings
     pygame.mixer.init()
-    pygame.mixer.music.load("audio.mp3")  # Get the audio
+    pygame.mixer.music.load("better_audio.mp3")
     pygame.mixer.music.play()
 
     # Sync with the frame
     init_time = time.time()
-    duration = 218  # The duration of the video
+    duration = 218  
 
     running = True
     try:
