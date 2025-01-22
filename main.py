@@ -22,7 +22,7 @@ def play_ascii_in_pygame():
 
     # Audio settings
     pygame.mixer.init()
-    pygame.mixer.music.load("better_audio.mp3")
+    pygame.mixer.music.load("badapple.mp3")
     pygame.mixer.music.play()
 
     # Sync with the frame
